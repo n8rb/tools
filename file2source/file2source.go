@@ -53,7 +53,8 @@ func main() {
 	// Generate the output file
 
 	outStr := fmt.Sprintf("package %v\n\n", pkgName)
-	outStr += fmt.Sprintf("// Created with file2source\n\n")
+	outStr += fmt.Sprintf("// Created with file2source\n")
+	outStr += fmt.Sprintf("// github.com/n8rb/tools/tree/master/file2source\n\n")
 	outStr += fmt.Sprintf("// Contains the following file data:\n")
 	outStr += fmt.Sprintf("// Filename:Bytes:Constant\n")
 
